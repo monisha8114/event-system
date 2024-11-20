@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #89cff0, #ffa07a);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+/* Form Header */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Labels */
+label {
+    color: #555;
+    font-weight: bold;
+}
+
+/* Form Inputs */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #ffa07a;
+    box-shadow: 0 0 8px rgba(255, 160, 122, 0.5);
+    outline: none;
+}
+
+/* Error Messages */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #ffa07a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e57373;
+}
+
+/* Back Button */
+.navbar-btn {
+    background-color: #ddd;
+    color: #555;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-btn:hover {
+    background-color: #bbb;
+}
+
+/* Glyphicon Styling */
+.glyphicon {
+    margin-left: 5px;
+}
+
+/* Form Alignment */
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col-md-2, .col-md-5, .col-md-4 {
+    padding: 5px;
+}
+
+.col-md-2 {
+    flex: 1 1 20%;
+    max-width: 20%;
+}
+
+.col-md-5 {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+.col-md-4 {
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+/* Content Section */
+.content {
+    padding: 20px;
+}
